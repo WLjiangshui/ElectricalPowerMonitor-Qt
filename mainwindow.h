@@ -26,10 +26,14 @@ private:
     QLineEdit *m_voltageEdit;   // 线电压 U (V)
     QLineEdit *m_currentEdit;   // 线电流 I (A)
     QLineEdit *m_pfEdit;        // 功率因数 cos(phi)
+    QLineEdit *m_loadEdit;      // 额定容量 Sn (kVA)
 
     // 输出标签
     QLabel *m_PLabel;           // 有功功率 P
     QLabel *m_QLabel;           // 无功功率 Q
+    QLabel *m_SLabel;           // 视在功率 S
+    QLabel *m_loadRateLabel;    // 负荷率
+    QLabel *m_statusLabel;      // 评估状态
 };
 
 #endif // MAINWINDOW_H
